@@ -11,6 +11,7 @@ class Solution {
         for(int i=0; i<n-1 ; i++){
             for(int j=i+1 ; j<n ; j++){
                 if( nums[i] + nums[j] == target){
+                    // System.out.println("java solution using Macbook");
                     return new int[]{i,j} ; 
                 }
             }   
